@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contain{
+            text-align: center;
+        }
+        div > h1{
+            background-color: aquamarine;            
+        }
+      
+
+        .box {
+            background-color: #d17272;
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .cont {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .sidebar {
+            background-color: #333;
+            color: #fff;
+            width: 200px; /* Fixed width */
+            padding: 20px;
+        }
+
+        .main {
+            background-color: #f4f4f4;
+            flex: 1; /* Take remaining space */
+            padding: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-evenly; /* Equal spacing */
+            background-color: #0e0404;
+            padding: 10px;
+            margin-bottom: 1%;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        #bio-contain{
+            display: flex;
+            margin-bottom: 0;
+           
+            
+        }
+        .bio{
+            border: 15px solid rgb(126, 95, 175);
+            padding: 70px;
+             margin: 20px;
+             border-radius: 8px;
+        }
+        #bio-contain img{
+            width: 100px;
+            border-radius: 50%;
+        }
+        .btn:hover {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+
+
+    <div class="cont">
+        <div class="sidebar">Sidebar</div>
+        <div class="main">Main Content</div>
+    </div>
+
+    <div class="contain">
+        <h1>Good Morning</h1>
+        <div>
+            <p>Its 7:am</p>
+            <h1>Good Afternoon</h1>
+            <p>Its Sunny</p>
+            <section><h1>sgvxhasxba asfagsxj</h1></section>
+            <p>sxvahsxjan saj</p>
+            <h1>csgasga</h1>
+            <p>xgashgxajsxasxvahsx asyxagsxha acsxvha</p>
+        </div>
+       
+    </div>
+    <button class="btn">Hover me</button>
+
+    
+    
+    
+    <div id="bio-contain">
+        <div class="bio">
+            <img src="cake.png" alt="">
+            <h2>cakes</h2>
+            <p>This is cup cake</p>
+        </div>
+
+        <div class="bio">
+            <img src="cake.png" alt="">
+            <h2>cakes</h2>
+            <p>This is cup cake</p>
+        </div>
+
+        <div class="bio">
+            <img src="cake.png" alt="">
+            <h2>cakes</h2>
+            <p>This is cup cake</p>
+        </div>
+    
+</body>
+</html>

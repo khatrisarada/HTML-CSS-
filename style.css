@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 200px;
+    margin-left: 30%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    
+}
+.Contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(196, 133, 17);
+    margin-left: 80%;
+    font-weight: 100;
+    padding: 14px 20px;
+    border: 1px solid rgb(196, 133, 17);
+    
+}
+.Contact-btn:hover{
+    background-color: rgb(196, 133, 17);
+    color: white;
+}
+
+.Contain{
+   
+    margin-top: 10%;
+    max-width: 600px;
+    background: none;
+    
+}
+
+.Contain h1{
+    background: none;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    margin-left: 20%;
+    animation-delay: 0.5s;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 50px;
+    color: rgb(19, 18, 18);
+    background-color: rgb(202, 154, 65);
+    margin-left: 20%;
+    border: 1px solid #2A2A2A;
+    line-height: 15px;
+    text-transform: uppercase;
+    border-radius: 4px; 
+    transition: 0.5s; 
+    animation-delay: 1s;
+}
+.btn:hover{
+    background: none;
+    color:rgb(202, 154, 65);
+    border-color: rgb(202, 154, 65);
+}
+.cake-img{
+    width: 550px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: auto;
+    
+}
+.cake-img.anim{
+    animation-delay: 1.5s;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.description{
+    position: relative;
+}
+.description h1{
+    color: white;
+    background: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 15%;
+    text-align: center;
+}
+.description h3{
+    color:rgb(202, 154, 65);
+    background: none;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10%;
+   
+}
+.description p{
+    color: white;
+    font-size: 14;
+    margin-left: 10%;
+    line-height: 1.5;
+
+}
